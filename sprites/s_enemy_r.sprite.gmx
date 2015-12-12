@@ -21,5 +21,6 @@
   <height>6</height>
   <frames>
     <frame index="0">images\s_enemy_r_0.png</frame>
+    <frame index="1">images\s_enemy_r_1.png</frame>
   </frames>
 </sprite>

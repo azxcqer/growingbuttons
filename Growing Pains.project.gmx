@@ -31,6 +31,8 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\look_at_you.gml</script>
+    <script>scripts\turnapalooza.gml</script>
     <script>scripts\bger.gml</script>
   </scripts>
   <fonts name="fonts">

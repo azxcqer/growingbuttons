@@ -6,8 +6,28 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_temp</background>
+  </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\f_def</font>
+  </fonts>
+  <objects name="objects">
+    <objects name="controllers">
+      <object>objects\ct_main</object>
+      <object>objects\ct_init</object>
+    </objects>
+    <object>objects\c_you</object>
+    <object>objects\c_spawner</object>
+    <object>objects\c_enemy</object>
+    <object>objects\c_clearer</object>
+    <object>objects\c_speeder</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\r_init</room>
+    <room>rooms\r_game</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

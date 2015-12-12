@@ -5,7 +5,27 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="spawner">
+      <sprite>sprites\sp_spawner</sprite>
+      <sprite>sprites\s_spawner_r</sprite>
+      <sprite>sprites\s_spawner_g</sprite>
+      <sprite>sprites\s_spawner_b</sprite>
+      <sprite>sprites\s_spawner_p</sprite>
+      <sprite>sprites\s_spawner_y</sprite>
+      <sprite>sprites\s_spawner_br</sprite>
+      <sprite>sprites\sp_spawner_pu</sprite>
+    </sprites>
+    <sprites name="enemies">
+      <sprite>sprites\s_enemy_r</sprite>
+      <sprite>sprites\s_enemy_g</sprite>
+      <sprite>sprites\s_enemy_b</sprite>
+      <sprite>sprites\s_enemy_p</sprite>
+      <sprite>sprites\s_enemy_y</sprite>
+      <sprite>sprites\s_enemy_br</sprite>
+      <sprite>sprites\s_enemy_pu</sprite>
+    </sprites>
+  </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
   </backgrounds>

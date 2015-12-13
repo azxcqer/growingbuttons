@@ -25,6 +25,8 @@
       <sprite>sprites\s_enemy_br</sprite>
       <sprite>sprites\s_enemy_pu</sprite>
     </sprites>
+    <sprite>sprites\s_player</sprite>
+    <sprite>sprites\s_body</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
@@ -34,6 +36,7 @@
     <script>scripts\look_at_you.gml</script>
     <script>scripts\turnapalooza.gml</script>
     <script>scripts\bger.gml</script>
+    <script>scripts\resizeme.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_def</font>
@@ -48,6 +51,7 @@
     <object>objects\c_enemy</object>
     <object>objects\c_clearer</object>
     <object>objects\c_speeder</object>
+    <object>objects\o_body</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>

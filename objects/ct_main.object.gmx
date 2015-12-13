@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///init
+room_speed=60;
 bger()
 </string>
           </argument>

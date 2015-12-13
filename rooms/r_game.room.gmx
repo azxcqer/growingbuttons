@@ -64,6 +64,7 @@
     <instance objName="c_spawner" x="15" y="120" name="inst_8E0433B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_spawner" x="120" y="150" name="inst_E525CA70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_body" x="60" y="180" name="inst_8FEA25BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_bar" x="-15" y="150" name="inst_77B859B7" locked="0" code="" scaleX="33.75" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

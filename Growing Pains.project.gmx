@@ -27,6 +27,7 @@
     </sprites>
     <sprite>sprites\s_player</sprite>
     <sprite>sprites\s_body</sprite>
+    <sprite>sprites\s_bar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
@@ -52,6 +53,7 @@
     <object>objects\c_clearer</object>
     <object>objects\c_speeder</object>
     <object>objects\o_body</object>
+    <object>objects\o_bar</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>

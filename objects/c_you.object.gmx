@@ -60,8 +60,8 @@ multi = 5
 
 if !global.paused
 {
-    key_up = keyboard_check(ord("Z"))
-    key_down = -keyboard_check(ord("X"))
+    key_up = keyboard_check(ord("X"))
+    key_down = -keyboard_check(ord("Z"))
     elev = key_up + key_down
 }
 </string>

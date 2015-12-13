@@ -70,10 +70,13 @@ switch(type)
     break
     case 4:
     who = o_y
+    break
     case 5:
     who = o_br
+    break
     case 6:
-    who = o_pu    
+    who = o_pu
+    break
 }
 instance_create(x,y,who)
 active = false

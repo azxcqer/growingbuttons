@@ -31,6 +31,8 @@ key_up = 0
 key_down = 0
 vsp = 0
 spd = 1
+minY = 30
+maxY = 180
 </string>
           </argument>
         </arguments>
@@ -86,7 +88,11 @@ if !global.paused
 {
     vsp = elev * spd;
     y+=vsp
-   
+    if y &lt;= minY
+    or y &gt;= maxY
+    {
+    y-=vsp
+    }   
 }
 else
 {

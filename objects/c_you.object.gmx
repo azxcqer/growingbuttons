@@ -33,6 +33,7 @@ vsp = 0
 spd = 1
 minY = 30
 maxY = 180
+multi = 5
 </string>
           </argument>
         </arguments>
@@ -86,7 +87,16 @@ if !global.paused
             <string>///movement
 if !global.paused
 {
-    vsp = elev * spd;
+    if key_up = 1
+    and key_down = -1
+    {
+    vsp = spd * multi
+    }
+    else
+    {
+        vsp = elev * spd;
+    }
+    
     y+=vsp
     if y &lt;= minY
     or y &gt;= maxY

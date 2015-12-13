@@ -54,6 +54,15 @@
     <object>objects\c_speeder</object>
     <object>objects\o_body</object>
     <object>objects\o_bar</object>
+    <objects name="enemies">
+      <object>objects\o_r</object>
+      <object>objects\o_g</object>
+      <object>objects\o_b</object>
+      <object>objects\o_p</object>
+      <object>objects\o_y</object>
+      <object>objects\o_br</object>
+      <object>objects\o_pu</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>

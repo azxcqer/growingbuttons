@@ -28,6 +28,7 @@
             <string>///init
 room_speed=60;
 bger()
+randomize()
 </string>
           </argument>
         </arguments>

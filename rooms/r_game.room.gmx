@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-190</xoffset>
-    <yoffset>-2</yoffset>
+    <xoffset>180</xoffset>
+    <yoffset>618</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -83,6 +83,19 @@
     <instance objName="c_spawner" x="16" y="46" name="inst_FCC5FFF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_spawner" x="21" y="28" name="inst_B791C8C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_spawner" x="116" y="28" name="inst_8FDB8BC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="158" name="inst_901B6E40" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="143" name="inst_6C76C601" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="128" name="inst_AA402C6E" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="113" name="inst_8150E7F8" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="98" name="inst_8F04A1BE" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="83" name="inst_1731E050" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="68" name="inst_D3A10CFB" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="53" name="inst_FB5BA3FE" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="45" name="inst_CF420E2F" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="38" name="inst_FE33C415" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="31" name="inst_8402ABF3" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="22" y="27" name="inst_33F05F68" locked="0" code="" scaleX="93" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_minibar" x="17" y="23" name="inst_D9A1E28F" locked="0" code="" scaleX="103" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

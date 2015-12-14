@@ -1,3 +1,4 @@
+#define scoring
 ///scoring()
 if global.gameon
 {
@@ -59,4 +60,19 @@ if global.gameon
     tick = baseScore*m
         
     global.scr += tick
+}
+
+#define score_load
+///score_load()
+ini_open('sav.ini')
+global.hscr = ini_read_real('score', 'hscr', 0)
+ini_close()
+
+#define score_save
+///score_save()
+if global.scr > global.hscr
+{
+    ini_open('sav.ini')
+    ini_write_real('score', 'hscr', global.scr)
+    ini_close()
 }

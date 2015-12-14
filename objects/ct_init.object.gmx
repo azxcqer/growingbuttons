@@ -38,6 +38,7 @@ global.screenH = 0
 global.dificulty = 0
 global.dodges = 0
 global.scr = 0
+global.hscr = 0
 </string>
           </argument>
         </arguments>

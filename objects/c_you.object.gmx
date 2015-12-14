@@ -34,6 +34,7 @@ spd = 1
 minY = 30
 maxY = 180
 multi = 5
+image_speed = 0
 </string>
           </argument>
         </arguments>
@@ -59,6 +60,7 @@ multi = 5
             <string>///controls
 
 if !global.paused
+and global.gameon
 {
     key_up = keyboard_check(ord("X"))
     key_down = -keyboard_check(ord("Z"))
@@ -94,7 +96,10 @@ if !global.paused
     }
     else
     {
+        if global.gameon
+        {
         vsp = elev * spd;
+        }
     }
     
     y+=vsp
@@ -107,6 +112,32 @@ if !global.paused
 else
 {
     y=y
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///animation
+//death
+if !global.gameon
+{
+    image_index = 1
 }
 </string>
           </argument>

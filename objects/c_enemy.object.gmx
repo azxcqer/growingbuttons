@@ -53,7 +53,7 @@ active=true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///moving
+            <string>///code
 x+=vsp*dir
 
 if place_meeting(x,y,o_purger)
@@ -81,6 +81,14 @@ if dir = -1
 if active=false
 {
     image_index=1
+}
+
+if place_meeting(x,y,c_you)
+{
+    if active
+    {
+        global.gameon = false
+    }
 }
 </string>
           </argument>

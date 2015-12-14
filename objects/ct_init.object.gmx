@@ -29,11 +29,11 @@
 
 ///engine variables
 global.paused = false
+draw_set_font(f_def)
+global.gameon = false
 
 ///game variables
-global.height = 0 
 global.dificulty = 0
-global.spd = 0
 global.dodges = 0
 </string>
           </argument>

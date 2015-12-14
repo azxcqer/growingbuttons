@@ -33,6 +33,7 @@ draw_set_font(f_def)
 global.gameon = false
 global.screenW = 0
 global.screenH = 0
+global.debug = false
 
 ///game variables
 global.dificulty = 0

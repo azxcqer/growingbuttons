@@ -31,10 +31,13 @@
 global.paused = false
 draw_set_font(f_def)
 global.gameon = false
+global.screenW = 0
+global.screenH = 0
 
 ///game variables
 global.dificulty = 0
 global.dodges = 0
+global.scr = 0
 </string>
           </argument>
         </arguments>

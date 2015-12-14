@@ -33,7 +33,7 @@ vsp = 0
 spd = 1
 minY = 30
 maxY = 180
-multi = 5
+multi = 2
 image_speed = 0
 </string>
           </argument>

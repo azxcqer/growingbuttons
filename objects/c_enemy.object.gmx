@@ -30,6 +30,7 @@ image_speed=0
 dir=0
 look_at_you(c_you)
 vsp=1
+active=true
 </string>
           </argument>
         </arguments>
@@ -58,6 +59,28 @@ x+=vsp*dir
 if place_meeting(x,y,o_purger)
 {
     instance_destroy()
+}
+var m = x,
+    pos = c_you.x
+if dir = 1
+    {
+        if  m &gt; pos+15+3
+        {
+            active=false
+        }
+    }
+
+if dir = -1
+    {
+        if  m &lt; pos+-2
+        {
+            active=false
+        }
+    }
+
+if active=false
+{
+    image_index=1
 }
 </string>
           </argument>

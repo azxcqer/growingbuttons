@@ -76,3 +76,11 @@ if global.scr > global.hscr
     ini_write_real('score', 'hscr', global.scr)
     ini_close()
 }
+#define score_purge
+///score_purge
+
+ini_open('sav.ini')
+ini_write_real('score', 'hscr', 0)
+ini_close()
+
+global.hscr = 0

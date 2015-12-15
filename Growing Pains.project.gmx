@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\a_spawn</sound>
+    <sound>sound\a_death</sound>
+    <sound>sound\a_lvl</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="spawner">
       <sprite>sprites\sp_spawner</sprite>

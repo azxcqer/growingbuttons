@@ -87,7 +87,11 @@ if place_meeting(x,y,c_you)
 {
     if active
     {
-        global.gameon = false
+        if global.gameon
+        {
+            audio_play_sound(a_death,2,false)
+        }
+        global.gameon = false       
     }
 }
 </string>

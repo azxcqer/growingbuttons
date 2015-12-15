@@ -79,6 +79,7 @@ switch(type)
     break
 }
 instance_create(x,y,who)
+audio_play_sound(a_spawn,1,false)
 active = false
 </string>
           </argument>

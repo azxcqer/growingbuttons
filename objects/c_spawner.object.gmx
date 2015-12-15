@@ -104,7 +104,7 @@ active = false
             <kind>1</kind>
             <string>type=irandom(6)
 active=true
-alarm[1]=spawnTime
+alarm[1]=global.curSpawnTime
 </string>
           </argument>
         </arguments>
@@ -130,7 +130,7 @@ alarm[1]=spawnTime
             <string>///alarming
 if active = false
 {
-    alarm[0] = irandom(timeMax)
+    alarm[0] = irandom(global.curIdleMax)
 }
 </string>
           </argument>

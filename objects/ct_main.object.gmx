@@ -32,7 +32,10 @@ randomize()
 global.gameon=true
 global.scr=0
 baseScore=1
-tick=0
+defIdle = global.defIdleTime
+defSpawn = global.defSpawnTime
+global.dif=1
+
 </string>
           </argument>
         </arguments>
@@ -59,6 +62,7 @@ tick=0
 global.screenH = window_get_height();
 global.screenW = window_get_width();
 scoring()
+dificulty()
 </string>
           </argument>
         </arguments>
@@ -208,6 +212,8 @@ if !global.gameon
 draw_text_shadow(x,y,"Score: "+string(global.scr)+"#Multiplier: "+string(tick),c_white,c_black,1,fa_left,fa_top)
 
 draw_text_shadow(global.screenW,0,"Highscore#"+string(global.hscr),c_white,c_black,1,fa_right,fa_top)
+
+draw_text_shadow(global.screenW,global.screenH,"Dificulty: "+string(global.dif),c_white,c_black,1,fa_right,fa_bottom)
 </string>
           </argument>
         </arguments>

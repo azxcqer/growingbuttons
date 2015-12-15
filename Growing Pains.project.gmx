@@ -34,6 +34,7 @@
     <script>scripts\resizeme.gml</script>
     <script>scripts\draw_text_shadow.gml</script>
     <script>scripts\scoring.gml</script>
+    <script>scripts\dificulty.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_def</font>

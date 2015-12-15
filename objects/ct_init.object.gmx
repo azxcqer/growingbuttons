@@ -36,10 +36,16 @@ global.screenH = 0
 global.debug = false
 
 ///game variables
-global.dificulty = 0
+global.dif = 0
 global.dodges = 0
 global.scr = 0
 global.hscr = 0
+
+///dificulty variables
+global.defIdleTime = 20*room_speed
+global.defSpawnTime = 6*room_speed
+global.curIdleMax = 0
+global.curSpawnTime = 0
 </string>
           </argument>
         </arguments>

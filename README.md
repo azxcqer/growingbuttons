@@ -36,3 +36,6 @@ link template
 *[Trizek35](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=65695)
 *[Hot Box Games](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=39707)
 *[pkenney](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=30865) - suggestion ofn easier restart button6
+
+###More about me
+*www.ardydo.com

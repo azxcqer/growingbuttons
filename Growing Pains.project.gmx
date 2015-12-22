@@ -45,17 +45,17 @@
     <font>fonts\f_def</font>
   </fonts>
   <objects name="objects">
+    <object>objects\c_you</object>
+    <object>objects\o_body</object>
     <objects name="controllers">
       <object>objects\ct_main</object>
       <object>objects\ct_init</object>
     </objects>
-    <object>objects\c_you</object>
-    <object>objects\c_spawner</object>
-    <object>objects\c_enemy</object>
-    <object>objects\c_clearer</object>
-    <object>objects\c_speeder</object>
-    <object>objects\o_body</object>
-    <object>objects\o_bar</object>
+    <objects name="classes">
+      <object>objects\c_enemy</object>
+      <object>objects\c_speeder</object>
+      <object>objects\c_clearer</object>
+    </objects>
     <objects name="enemies">
       <object>objects\o_r</object>
       <object>objects\o_g</object>
@@ -65,8 +65,12 @@
       <object>objects\o_br</object>
       <object>objects\o_pu</object>
     </objects>
-    <object>objects\o_purger</object>
-    <object>objects\o_minibar</object>
+    <objects name="tools">
+      <object>objects\c_spawner</object>
+      <object>objects\o_bar</object>
+      <object>objects\o_purger</object>
+      <object>objects\o_minibar</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>

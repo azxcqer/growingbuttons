@@ -28,14 +28,14 @@ Pepople who left feedback on my game
 link template
 [This is an example inline link](url "Title")
  -->
-*[jaytinc](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=13702)
-*[Suaave](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=59347)
-*[exhidor](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=64080)
-*[stuntddude](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=31623)
-*[togo](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=24852)
-*[Trizek35](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=65695)
-*[Hot Box Games](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=39707)
-*[pkenney](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=30865) - suggestion ofn easier restart button6
+* [jaytinc](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=13702)
+* [Suaave](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=59347)
+* [exhidor](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=64080)
+* [stuntddude](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=31623)
+* [togo](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=24852)
+* [Trizek35](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=65695)
+* [Hot Box Games](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=39707)
+* [pkenney](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=30865) - suggestion ofn easier restart button6
 
 ###More about me
-*www.ardydo.com
+* www.ardydo.com

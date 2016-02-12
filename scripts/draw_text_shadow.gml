@@ -4,30 +4,15 @@
 var oldColor = draw_get_color();
 
 var tX, tY, text, tColor, sColor, sDist, halign, valign;
-/*{
-var i,arg;
-for (i = 0; i !=7; i += 1;)
-    {
-    if argument_count > i
-       {
-       arg[i] = argument[i]
-       }
-    else
-       {
-       arg[i] = -1;
-       }
-    }
-}
-*/
 
- tX = argument0
- tY = argument1;
- text = argument2;
- tColor = argument3;
- sColor = argument4;
- sDist = argument5;
- halign = argument6;
- valign = argument7;
+tX = argument0
+tY = argument1;
+text = argument2;
+tColor = argument3;
+sColor = argument4;
+sDist = argument5;
+halign = argument6;
+valign = argument7;
 
 //draw_set_valign(fa_middle)
 draw_set_halign(halign)

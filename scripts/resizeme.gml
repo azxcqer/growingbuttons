@@ -1,5 +1,4 @@
 ///resizeme()
-
 var Py = c_you.y,
     meY = y,
     dif = Py-meY,

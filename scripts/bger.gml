@@ -1,5 +1,5 @@
-///bger() setting the bg to something if nothing is set
-
+///bger()
+//setting the bg to something if nothing is set
 if background_index[0] = -1
     {
     background_index[0] = bg_temp

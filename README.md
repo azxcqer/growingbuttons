@@ -37,5 +37,17 @@ link template
 * [Hot Box Games](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=39707)
 * [pkenney](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=30865) - suggestion ofn easier restart button6
 
-###More about me
+### More about me
 * www.ardydo.com
+
+## Licensing
+
+### Code
+
+All code are distributed under the [MIT License](LICENSE)
+
+### Assets
+
+Unless mentioned otherwise, all art assets (files in assets/ and with the .ase and .png extensions) are distributed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+Artist: André Andrade
